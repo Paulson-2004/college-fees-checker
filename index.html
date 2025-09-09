@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Fee Checker - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-image: url('images/Mzcet.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        label {
+            color: #0077cc; /* Choose any color you like */
+            font-weight: bold;
+        }
+
+        input {
+            color: #333;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        input:focus {
+            color: #000;
+            border-color: #0077cc;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Student Fee Checker</h2>
+        <form id="loginForm">
+            <label for="sprNo">SPR NO:</label>
+            <input type="text" id="sprNo" name="sprNo" required><br><br>
+
+            <label for="dob">Date of Birth (DOB):</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-message"></p>
+    </div>
+    
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!-- fee.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="fee-container">
+        <h2>Student Fee Details</h2>
+        <p><strong>SPR NO:</strong> <span id="sprNo"></span></p>
+        <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
+        <p><strong>Course:</strong> <span id="course"></span></p>
+        <p><strong>Year:</strong> <span id="year"></span></p>
+
+        <h3>Fee Breakdown:</h3>
+        <div class="fee-breakdown">
+            <div class="fee-box">
+                <p>Hostel Fee: <span id="hostelFee"></span></p>
+            </div>
+            <div class="fee-box">
+                <p>Tuition Fee: <span id="tuitionFee"></span></p>
+            </div>
+            <div class="fee-box">
+                <p>Textbook Fee: <span id="textbookFee"></span></p>
+            </div>
+            <div class="fee-box">
+                <p>Skill Dev Fee: <span id="skillDevFee"></span></p>
+            </div>
+            <div class="fee-box">
+                <p>Exam Stationery Fee: <span id="examStationeryFee"></span></p>
+            </div>
+            <div class="fee-box">
+                <p>Notebook Fee: <span id="notebookFee"></span></p>
+            </div>
+        </div>
+
+        <div class="total-payable">
+            Total Payable: <span id="totalPayable">0 INR</span>
+        </div>
+        <p id="error-message" style="color: red; text-align: center; margin-top: 10px;"></p>
+    </div>
+
+    <script src="js/fee.js"></script>
+</body>
+</html>

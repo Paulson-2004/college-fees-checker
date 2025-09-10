@@ -1,11 +1,11 @@
-🎓 College Fees Checker
+## 🎓 College Fees Checker
 
 A Node.js + Express based web application that allows users to check and calculate college fees dynamically.  
 The app provides a simple interface to view fee details, powered by backend APIs.
 
 ---
 
-🚀 Features
+## 🚀 Features
 - 🏫 College fees calculator  
 - 📄 Multiple HTML pages (`index.html`, `fee.html`)  
 - ⚡ Fast backend using Express.js  
@@ -13,14 +13,14 @@ The app provides a simple interface to view fee details, powered by backend APIs
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 - **Backend:** Node.js, Express.js  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Environment Management:** `.env` for secrets  
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 ```bash
 college-fees-checker/
 │── .env                 # Environment variables
@@ -35,7 +35,7 @@ college-fees-checker/
 
 ---
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
 ```bash
@@ -63,7 +63,7 @@ Open your browser → [http://localhost:5000](http://localhost:5000)
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 1. Fork the repo  
 2. Create a new branch (`git checkout -b feature/new-feature`)  
 3. Commit your changes (`git commit -m "Add new feature"`)  

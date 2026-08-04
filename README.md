@@ -1,4 +1,4 @@
-## 🎓 College Fees Checker
+<img width="1920" height="1020" alt="Screenshot 2026-08-04 185614" src="https://github.com/user-attachments/assets/639ec0a6-1a7c-4c05-9a73-df47ee32fd0b" />## 🎓 College Fees Checker
 
 A Node.js + Express based web application that allows users to check and calculate college fees dynamically.  
 The app provides a simple interface to view fee details, powered by backend APIs.
@@ -62,6 +62,16 @@ node server.js
 Open your browser → [http://localhost:5000](http://localhost:5000)
 
 ---
+
+## 📸 Screenshots
+
+Login/Register Page
+<img width="1920" height="1020" alt="Screenshot 2026-08-04 185614" src="https://github.com/user-attachments/assets/f263eb57-ee51-4320-b59a-90c9393bcc7c" />
+
+Main Page
+<img width="1920" height="1020" alt="Screenshot 2026-08-04 185633" src="https://github.com/user-attachments/assets/1ab97b54-b89d-4a6d-82e1-855a31c06f93" />
+
+--
 
 ## 🤝 Contributing
 1. Fork the repo  
